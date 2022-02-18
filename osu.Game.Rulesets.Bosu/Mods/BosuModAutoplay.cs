@@ -1,4 +1,4 @@
-﻿using osu.Game.Beatmaps;
+using osu.Game.Beatmaps;
 using osu.Game.Online.API.Requests.Responses;
 using osu.Game.Rulesets.Bosu.Replays;
 using osu.Game.Rulesets.Mods;
@@ -13,7 +13,7 @@ namespace osu.Game.Rulesets.Bosu.Mods
         {
             ScoreInfo = new ScoreInfo
             {
-                User = new APIUser { Username = "auto" }
+                User = new APIUser { Username = "peppy" }
             },
             Replay = new BosuAutoGenerator(beatmap).Generate(),
         };
